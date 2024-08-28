@@ -1,0 +1,203 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,700,700i);
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+$font-family-sans-serif: "Roboto", "Fira Sans", "Droid Serif", serif !default;
+$font-family-monospace: "JetBrains Mono", "Fira Code", monospace;
+
+// colors
+$university_blue: #041E42 !default;
+$university_red: #D50032 !default;
+$university_bright_blue: #007288 !default;
+$university_bright_pink: #D0006F !default;
+$university_bright_red: #AD033B !default;
+$university_bright_yellow: #F9A800 !default;
+$university_purple: #830065 !default;
+$university_burgundy: #A50034 !default;
+$university_dark_green: #154734 !default;
+$university_muted_blue: #004F71 !default;
+$university_muted_brown: #6D4F47 !default;
+$university_spruce_grey: #333F48 !default;
+
+$tusail-blue: #344e9a;
+$tusail-green: #4db05b;
+$tusail-pink: #e71e72;
+$tusail-cyan: #3fa2db;
+
+$body-bg: #ffffff !default;
+$body-color: #000 !default;
+// $link-color: #EB811B !default;
+$selection-bg: $university_muted_brown;
+
+// headings
+// $presentation-heading-font: "Palatino Linotype", "Book Antiqua", Palatino,
+//   FreeSerif, serif !default;
+// $presentation-heading-color: #383d3d !default;
+
+/*-- scss:rules --*/
+.red_highlight {
+    color: $university_red;
+    font-weight: bold;
+}
+
+.gold_highlight {
+    color: $university_bright_yellow;
+    font-weight: bold;
+}
+
+.navy_highlight {
+    color: $university_blue;
+    font-weight: bold;
+}
+
+.green_highlight {
+    color: $university_bright_blue;
+    font-weight: bold;
+}
+
+.blue_highlight {
+    color: $university_muted_blue;
+    font-weight: bold;
+}
+
+// code blocks
+.reveal div.sourceCode pre code {
+    // margin-left: 20px;
+    // font-size: 100%;
+}
+
+// code output
+.reveal pre code {
+    // font-size: 100%;
+    padding-top: 6px;
+    margin-bottom: 20px;
+}
+
+// maximum height of code blocks before scrolling is used
+.reveal pre.sourceCode code {
+    max-height: 600px; // default 500
+}
+
+.footer {
+    bottom: 10px !important;
+    color: $university_purple !important;
+}
+
+.reveal .footer a {
+    color: $university_red;
+}
+
+
+.slide-logo {
+    display: block !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 10px !important;
+    max-height: 6% !important;
+    height: 100% !important;
+    width: auto !important;
+    color: $body-color !important;
+    z-index: 0;
+}
+
+// .reveal .slide {
+//     margin-top: 0px;
+//     margin-left: 0px;
+// }
+
+.reveal .slides h2 {
+
+    // reduce margin so that spans visible area
+    margin-left: -70px;
+    margin-right: -70px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+
+    // add padding around title box
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+
+    // make title font white
+    color: white;
+    background-color: $university_blue;
+
+    // Add border
+    border-radius: 0px;
+    border-width: 0px 0px 6px 0px;
+    border-style: solid;
+    border-color: $university_red;
+}
+
+// .reveal h2 {
+//     background-color: $university_blue;
+//     padding: 15px 0px 15px 20px;
+//     height: 85px;
+//     color: $university_bright_yellow;
+//     border-radius: 0px;
+//     border-width: 0px 0px 6px 0px;
+//     border-style: solid;
+//     border-color: $university_red;
+// }
+
+.reveal .slide blockquote {
+    border-left: 3px solid $university_red;
+}
+
+.reveal .progress {
+    height: 5px;
+    color: $university_red;
+}
+
+ 
+.reveal .slide-number>a[href*='title-slide'] {
+    display: none;
+}
+
+.reveal .slide-number a {
+    font-size: 120%;
+    font-weight: 600;
+    color: #fafafa;
+    background-color: $university_blue;
+    border-radius: 0px;
+    padding: 8px;
+    position: relative;
+    top: 200px;
+    right: -15px;
+    min-width: 50px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// p + ul {
+//     margin-top: -10px;
+// }
+
+// .reveal .slide li:first-child {
+//     margin-bottom: 0px;
+// }
+
+.reveal .slide ul li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.reveal .slide ol li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.reveal .slide ul li,
+.reveal .slide ol li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+
+.reveal .slide li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;}
+

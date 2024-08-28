@@ -1,0 +1,64 @@
+---
+title: "Test presentation"
+subtitle: "Challenges in CSS attributes"
+author: "JP"
+institute: "ACME"
+date: 09/04/2024
+# date: today  
+date-format: "dddd, D[<sup style='font-size:65%;font-style:italic;'>nd</sup>] [of] MMMM, YYYY"
+
+
+embed-resources: false
+
+
+
+---
+
+
+## Crisis
+
+::: {.columns}
+::: {.column width=60%}
+For the past **two decades** there has been significant discussion on the reproducibility crisis in science
+
+ - A pattern of scientists being **unable to obtain the same results** as previous researchers
+
+
+:::{.fragment}
+**Distinction** between *Reproducibility* & *Replicability*
+
+ - [Reproducibility:]{.green_highlight} Can you get the same answers as me **when you analyze my data**?
+
+ - [Replicability:]{.green_highlight} Can you get the same answers **when you do my experiment and collect your own data**?
+
+:::
+
+::: {.fragment}
+
+::: {.callout-important}
+ Dependent on the quality of the data provided to it.
+
+:::
+
+:::
+
+:::
+
+::: {.column width=40%}
+![[Smith, 2015]](https://placehold.co/1200x900)
+
+:::
+
+::: 
+<!-- end columns -->
+
+
+
+
+::: {.notes}
+Reproducibility example - "here's the raw data from my experiment. I think you know what I did so you will probably get the same results as me"
+
+Replicability example - "I used limestone powder (which one?) in a shear cell (what type?). You should get a similar flow function"
+:::
+
+

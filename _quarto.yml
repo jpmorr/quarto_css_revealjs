@@ -1,0 +1,40 @@
+project:
+  title: "GrainDB - An Experimental Measurements Database"
+
+
+format:
+  revealjs:
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+      buttons: true
+    navigation-mode: vertical
+    reference-location: document
+    incremental: true  
+    transition: slide
+    transition-speed: default
+    slide-number: c
+    history: false
+    width: 1600 
+    height: 900
+    margin: 0.075
+    theme: [default, custom.scss]
+    highlight-style: github-dark
+    footer: |
+      <a href = "https://creativecommons.org/licenses/by-sa/4.0/">License: CC-BY-SA-4.0</a>
+    include-in-header:
+      - text: |
+          <link rel = "shortcut icon" href="https://placehold.co/60" />
+
+    spotlight:
+     - size: 60
+     - useAsPointer: true
+     - pointerColor: red
+    appearance:
+      appearparents: true
+
+from: markdown+emoji
+
+execute:
+  cache: true
+  freeze: auto
